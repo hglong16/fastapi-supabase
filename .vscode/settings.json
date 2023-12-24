@@ -1,0 +1,12 @@
+{
+  "cSpell.words": [
+    "asyncpg",
+    "gunicorn",
+    "httptools",
+    "redoc",
+    "supabase",
+    "UJSON",
+    "uvicorn",
+    "uvloop"
+  ]
+}

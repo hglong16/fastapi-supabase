@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "fastapi-supabase"
+version = "0.1.0"
+description = ""
+authors = ["hglong16 <intihad.vuong@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.105.0"
+supabase = "^2.3.0"
+pydantic-settings = "^2.1.0"
+gunicorn = "^21.2.0"
+uvicorn = "^0.25.0"
+yarl = "^1.9.4"
+uvloop = "^0.19.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
