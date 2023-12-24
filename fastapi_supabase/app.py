@@ -37,15 +37,6 @@ def get_app() -> FastAPI:
         default_response_class=UJSONResponse,
     )
 
-    # app = FastAPI(
-    #     title="s956",
-    #     version=metadata.version("s956"),
-    #     docs_url="/api/hglong/3357/docs",
-    #     redoc_url=None,
-    #     openapi_url=None,
-    #     default_response_class=UJSONResponse,
-    # )
-
     app.add_middleware(
         CORSMiddleware,
         allow_origins=origins,
